@@ -1,0 +1,1 @@
+select Track.title,Genre.name,Album.title,Artist.name from Track join Genre join Album join Artist on Track.genre_id = genre_id and Track.album_id = Album_id and Album.artist_id = Artist.id
