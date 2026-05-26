@@ -1,4 +1,4 @@
-import 
+import urllib.request,urllib.parse,urllib.error
 html = urllib.requset.urlopen(url, context = ctx).read()
 soup = BeautifulSoup(html, 'html.parser')
 #Retrive all tags
